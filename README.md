@@ -1,1 +1,3 @@
-# Backtesting-a-Trading-Strategy
+Backtesting is the act of testing a trading strategy against historical price data of a stock. As manually backtesting against vast volumes of data is difficult and inconvenient, automated and programmed backtesting becomes all the more important. 
+The ‘ta’ library was used, yfinance was used to extract data. Pandas data frame was used to store financial data extracted and a record of total number of trades entered, successful trades and failed trades were counted, total profit and total loss was noted. Sell and buy signals were auto generated based on trading strategies. Matplotlib was used to plot crossover visuals.
+A simple moving average crossover strategy was tested.
